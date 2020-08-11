@@ -34,7 +34,7 @@ export class BoxComponent implements OnInit {
         this.onMoveToLeft();
         break;
       case "Backspace":
-      case "delete":
+      case "Delete":
         this.onDeleteDiv();
         break;
       default:
